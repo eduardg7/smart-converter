@@ -1,0 +1,26 @@
+ion-card {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 15px;
+
+  ion-card-title {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+
+  ion-card-subtitle {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+
+  ion-text {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 10px 0;
+    white-space: pre-wrap;
+  }
+}

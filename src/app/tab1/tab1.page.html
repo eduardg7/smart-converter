@@ -1,0 +1,91 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Smart Converter
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+<div class="sub-header-container">
+	<div class="carousel-container">
+		<ion-list-header>
+			<ion-label>Most Used Converters</ion-label>
+			<ion-icon name="arrow-dropdown" (click)="revealCarousel(); hideSearch();"
+			          [ngClass]="{
+				          'rotate': isCarouselRevealed
+				          }"></ion-icon>
+		</ion-list-header>
+	</div>
+	<div class="search-container">
+		<ion-list-header>
+			<ion-label>All Converters</ion-label>
+			<ion-icon name="search" (click)="revealSearch(); hideCarousel();"></ion-icon>
+		</ion-list-header>
+		<ion-toolbar *ngIf="isSearchRevealed">
+			<ion-searchbar placeholder="Search" autocomplete="on" debounce="500" [(ngModel)]="searchText"
+			               animated></ion-searchbar>
+		</ion-toolbar>
+	</div>
+</div>
+<ion-content>
+	<div *ngIf="units">
+		<ion-card *ngFor="let unit of units | filter: searchText; let i = index;" [ngClass]="{
+		'physics': unit.section == 'Physics',
+		'geometry': unit.section == 'Geometry',
+		'chemistry': unit.section == 'Chemistry',
+		'photometry': unit.section == 'Photometry',
+		'it': unit.section == 'IT',
+		'other': unit.section == 'Other',
+		'astronomy': unit.section == 'Astronomy'}">
+			<ion-card-header>
+				<ion-card-subtitle [ngClass]="{
+				'physics': unit.section == 'Physics',
+				'geometry': unit.section == 'Geometry',
+				'chemistry': unit.section == 'Chemistry',
+				'photometry': unit.section == 'Photometry',
+				'it': unit.section == 'IT',
+				'other': unit.section == 'Other',
+				'astronomy': unit.section == 'Astronomy'
+				}">{{unit.section}}</ion-card-subtitle>
+				<ion-card-title>{{unit.converter}}</ion-card-title>
+				<ion-icon name="information-circle-outline" (click)="openPopover($event, i)"
+				          [ngClass]="{
+				          'physics': unit.section == 'Physics',
+				          'geometry': unit.section == 'Geometry',
+				          'chemistry': unit.section == 'Chemistry',
+				          'photometry': unit.section == 'Photometry',
+				          'it': unit.section == 'IT',
+				          'other': unit.section == 'Other',
+				          'astronomy': unit.section == 'Astronomy'
+				          }"></ion-icon>
+				<ion-icon class="arrow-expand" src="../../assets/images/open_1.svg" (click)="openConverter(i, unit);"
+				          [ngClass]="{
+				          'physics': unit.section == 'Physics',
+				          'geometry': unit.section == 'Geometry',
+				          'chemistry': unit.section == 'Chemistry',
+				          'photometry': unit.section == 'Photometry',
+				          'it': unit.section == 'IT',
+				          'other': unit.section == 'Other',
+				          'astronomy': unit.section == 'Astronomy',
+				          'rotate': unit.isExpanded,
+				          'bounce': !unit.isExpanded
+				          }"></ion-icon>
+			</ion-card-header>
+		</ion-card>
+	</div>
+	<!-- Skeleton screen -->
+	<div *ngIf="!units">
+		<ion-card *ngFor="let unit of units">
+			<ion-card-header>
+				<ion-card-subtitle>
+					<ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+				</ion-card-subtitle>
+				<ion-card-title>
+					<ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+				</ion-card-title>
+				<ion-icon>
+					<ion-skeleton-text animated style="width: 10%"></ion-skeleton-text>
+				</ion-icon>
+			</ion-card-header>
+		</ion-card>
+	</div>
+</ion-content>

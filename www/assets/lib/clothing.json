@@ -1,0 +1,297 @@
+[
+  {
+    "converter": "womenClothing",
+    "name": "Women's Clothing",
+    "section": "Women",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "US (named sizes)",
+      "Australia",
+      "France",
+      "Germany",
+      "Italy",
+      "Japan",
+      "UK"
+    ]
+  },
+  {
+    "converter": "womenDresses",
+    "name": "Women's Dresses",
+    "section": "Women",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "France",
+      "Italy",
+      "UK"
+    ]
+  },
+  {
+    "converter": "womenBlouses",
+    "name": "Women's Blouses",
+    "section": "Women",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe",
+      "UK"
+    ]
+  },
+  {
+    "converter": "womenShoes",
+    "name": "Women's Shoes",
+    "section": "Women",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "centimeters",
+      "toValue": "centimeters",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "centimeters",
+      "inches",
+      "US",
+      "Australia",
+      "Canada",
+      "Europe",
+      "Japan",
+      "Korea",
+      "Mexico",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menClothing",
+    "name": "Men's Clothing",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "France",
+      "Japan",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menTshirts",
+    "name": "Men's T-Shirts",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "US (named sizes)",
+      "Europe",
+      "Japan",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menDressShirts",
+    "name": "Men's Dress Shirts",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe",
+      "Japan",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menJeansWaist",
+    "name": "Men's Jeans Waist",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe",
+      "Japan",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menJeansLength",
+    "name": "Men's Jeans Length",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe"
+    ]
+  },
+  {
+    "converter": "menSocks",
+    "name": "Men's Socks",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe",
+      "UK"
+    ]
+  },
+  {
+    "converter": "menUnderwear",
+    "name": "Men's Underwear",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe"
+    ]
+  },
+  {
+    "converter": "menHats",
+    "name": "Men's Hats",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe"
+    ]
+  },
+  {
+    "converter": "menShoes",
+    "name": "Men's Shoes",
+    "section": "Men",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "centimeters",
+      "toValue": "centimeters",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "centimeters",
+      "inches",
+      "US",
+      "Australia",
+      "Canada",
+      "Europe",
+      "France",
+      "Japan",
+      "Korea",
+      "Mexico",
+      "UK"
+    ]
+  },
+  {
+    "converter": "childrenClothing",
+    "name": "Children's Clothing",
+    "section": "Children",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "US",
+      "toValue": "US",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "US",
+      "Europe",
+      "UK"
+    ]
+  },
+  {
+    "converter": "childrenShoes",
+    "name": "Children's Shoes",
+    "section": "Children",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "centimeters",
+      "toValue": "centimeters",
+      "conversionResult": null
+    },
+    "description": "",
+    "choices": [
+      "centimeters",
+      "inches",
+      "US",
+      "Europe",
+      "UK"
+    ]
+  }
+]

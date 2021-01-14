@@ -1,0 +1,125 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Clothing Sizes
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+<div class="sub-header-container">
+	<div class="carousel-container">
+		<ion-list-header>
+			<ion-label>Most Used Clothing Converters</ion-label>
+			<ion-icon name="arrow-dropdown" (click)="revealCarousel(); hideSearch();"
+			          [ngClass]="{
+				          'rotate': isCarouselRevealed
+				          }"></ion-icon>
+		</ion-list-header>
+	</div>
+	<div class="search-container">
+		<ion-list-header>
+			<ion-label>All Converters</ion-label>
+			<ion-icon name="search" (click)="revealSearch(); hideCarousel();"></ion-icon>
+		</ion-list-header>
+		<ion-toolbar *ngIf="isSearchRevealed">
+			<ion-searchbar placeholder="Search" autocomplete="on" debounce="500" [(ngModel)]="searchText"
+			               animated></ion-searchbar>
+		</ion-toolbar>
+	</div>
+</div>
+<div *ngIf="clothing">
+	<ion-card *ngFor="let cloth of clothing | filter: searchText; let i = index;" [ngClass]="{
+				          'men': cloth.section == 'Men',
+				          'women': cloth.section == 'Women',
+				          'children': cloth.section == 'Children'
+				          }">
+		<ion-card-header>
+			<ion-card-subtitle [ngClass]="{
+				          'men': cloth.section == 'Men',
+				          'women': cloth.section == 'Women',
+				          'children': cloth.section == 'Children'
+				          }">{{cloth.section}}</ion-card-subtitle>
+			<ion-card-title>{{cloth.name}}</ion-card-title>
+			<ion-icon name="information-circle-outline" (click)="openPopover($event, i)" [ngClass]="{
+				          'men': cloth.section == 'Men',
+				          'women': cloth.section == 'Women',
+				          'children': cloth.section == 'Children'
+				          }"></ion-icon>
+			<ion-icon class="arrow-expand" src="../../assets/images/open_1.svg" (click)="openConverter(i, unit);"
+			          [ngClass]="{
+				          'men': cloth.section == 'Men',
+				          'women': cloth.section == 'Women',
+				          'children': cloth.section == 'Children',
+				          'rotate': cloth.isExpanded
+				          }"></ion-icon>
+		</ion-card-header>
+		<div class="divider" [ngClass]="{
+					            'men': cloth.section == 'Men',
+					            'women': cloth.section == 'Women',
+					            'children': cloth.section == 'Children'
+					            }" *ngIf="cloth.isExpanded"></div>
+		<ion-card-content *ngIf="cloth.isExpanded">
+			<div class="covert-from">
+				<div class="convert-from-left-side">
+					<ion-note>Choose value to convert:</ion-note>
+					<ion-select
+							placeholder="Select an option"
+							[(ngModel)]="cloth.values.inputValue"
+							(ionChange)="convert(i, cloth.values.inputValue, cloth.values.fromValue, cloth.values.toValue, cloth.converter)">
+						<ion-select-option [value]="size.value"
+						                   *ngFor="let size of clothingSizes[cloth.converter][cloth.values.fromValue]">
+							{{size.value}}
+						</ion-select-option>
+					</ion-select>
+				</div>
+				<div class="convert-from-right-side">
+					<ion-note>From:</ion-note>
+					<ion-button color="light" expand="block" (click)="openModal(i, 'from');"
+					            [(ngModel)]="cloth.values.fromValue"
+					            ngDefaultControl>
+						<span class="ellipsis">{{cloth.values.fromValue ? cloth.values.fromValue : "Select an option"}}</span>
+					</ion-button>
+				</div>
+			</div>
+			<div class="convert-to">
+				<div class="convert-to-right-side">
+					<ion-note>To:</ion-note>
+					<ion-button color="light" expand="block" (click)="openModal(i, 'to');"
+					            [(ngModel)]="cloth.values.toValue"
+					            ngDefaultControl>
+						<span class="ellipsis">{{cloth.values.toValue ? cloth.values.toValue : "Select an option"}}</span>
+					</ion-button>
+				</div>
+			</div>
+			<div class="convert-total">
+				<ion-note>
+					<p>Result:</p>
+				</ion-note>
+				<ion-button name="to" color="light" expand="block" disabled="true"
+				            [(ngModel)]="cloth.values.conversionResult" [ngClass]="{
+					            'men': cloth.section == 'Men',
+					            'women': cloth.section == 'Women',
+					            'children': cloth.section == 'Children'
+					            }"
+				            ngDefaultControl>
+					<span class="ellipsis">{{cloth.values.conversionResult}}</span>
+				</ion-button>
+			</div>
+		</ion-card-content>
+	</ion-card>
+</div>
+<!-- Skeleton screen -->
+<div *ngIf="!clothing">
+	<ion-card *ngFor="let cloth of clothing">
+		<ion-card-header>
+			<ion-card-subtitle>
+				<ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+			</ion-card-subtitle>
+			<ion-card-title>
+				<ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+			</ion-card-title>
+			<ion-icon>
+				<ion-skeleton-text animated style="width: 10%"></ion-skeleton-text>
+			</ion-icon>
+		</ion-card-header>
+	</ion-card>
+</div>

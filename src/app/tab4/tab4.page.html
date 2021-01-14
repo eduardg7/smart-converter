@@ -1,0 +1,32 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Live Exchange Rates
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+<ion-card>
+	<ion-card-header>
+		<ion-card-subtitle>Currency Exchange Rates</ion-card-subtitle>
+	</ion-card-header>
+	<ion-card-content>
+		<ion-select placeholder="Select currency" [(ngModel)]="exchangeSelected">
+			<ion-select-option *ngFor="let exchange of exchanges; let i = index;">
+				{{exchange}}
+			</ion-select-option>
+		</ion-select>
+	</ion-card-content>
+</ion-card>
+<div class="divider" *ngIf="exchangeSelected"></div>
+<ion-toolbar *ngIf="exchangeSelected">
+	<ion-searchbar placeholder="Search" autocomplete="on" debounce="500" [(ngModel)]="searchText"
+	               animated></ion-searchbar>
+</ion-toolbar>
+<ion-content>
+	<ion-list *ngIf="exchangeSelected">
+		<ion-item *ngFor="let currency of currencies | filter: searchText; let j = index;">
+			<ion-label>{{currency.currency}}</ion-label>
+			<ion-label>{{currency.rate}}</ion-label>
+		</ion-item>
+	</ion-list>
+</ion-content>

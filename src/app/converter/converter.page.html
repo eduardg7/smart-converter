@@ -1,0 +1,64 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-back-button slot="start" mode="md" color="dark" icon="arrow-round-back" text=""
+		                 (click)="historyBack();"></ion-back-button>
+		<ion-title>Smart Converter</ion-title>
+	</ion-toolbar>
+</ion-header>
+<ion-content>
+	<div class="converter-container" *ngIf="params && units && conversions">
+		<div class="covert-from" [ngClass]="{
+				'physics': params.section == 'Physics',
+				'geometry': params.section == 'Geometry',
+				'chemistry': params.section == 'Chemistry',
+				'photometry': params.section == 'Photometry',
+				'it': params.section == 'IT',
+				'other': params.section == 'Other',
+				'astronomy': params.section == 'Astronomy'
+				}">
+			<div class="convert-from-right-side">
+				<ion-button name="from" fill="clear" (click)="openModal(params.index, 'from');"
+				            [(ngModel)]="units[params.index].values.fromValue"
+				            (ngModelChange)="convert(params.index, units[params.index].values.inputValue, units[params.index].values.fromValue, units[params.index].values.toValue, params.converter)"
+				            ngDefaultControl>
+					<span class="ellipsis">{{units[params.index].values.fromValue ? units[params.index].values.fromValue : "Select an option"}}</span>
+				</ion-button>
+			</div>
+			<div class="convert-from-left-side">
+				<ion-input type="number" [(ngModel)]="units[params.index].values.inputValue"
+				           step="0.01 required" placeholder="0"></ion-input>
+			</div>
+		</div>
+		<div class="reverse-wrapper">
+			<div class="circle-divider">
+				<ion-icon src="../assets/images/arrow-conversion.svg" [ngClass]="{
+				'physics': params.section == 'Physics',
+				'geometry': params.section == 'Geometry',
+				'chemistry': params.section == 'Chemistry',
+				'photometry': params.section == 'Photometry',
+				'it': params.section == 'IT',
+				'other': params.section == 'Other',
+				'astronomy': params.section == 'Astronomy'
+				}"
+				          (click)="convert(params.index, units[params.index].values.inputValue, units[params.index].values.fromValue, units[params.index].values.toValue, params.converter)"></ion-icon>
+			</div>
+		</div>
+		<div class="convert-to">
+			<div class="convert-total">
+				<ion-button name="to" fill="clear" disabled="true"
+				            [(ngModel)]="units[params.index].values.conversionResult"
+				            ngDefaultControl>
+					<span class="ellipsis">{{units[params.index].values.conversionResult}}</span>
+				</ion-button>
+			</div>
+			<div class="convert-to-right-side">
+				<ion-button name="to" fill="clear" (click)="openModal(params.index, 'to');"
+				            [(ngModel)]="units[params.index].values.toValue"
+				            (ngModelChange)="convert(params.index, units[params.index].values.inputValue, units[params.index].values.fromValue, units[params.index].values.toValue, params.converter)"
+				            ngDefaultControl>
+					<span class="ellipsis">{{units[params.index].values.toValue ? units[params.index].values.toValue : "Select an option"}}</span>
+				</ion-button>
+			</div>
+		</div>
+	</div>
+</ion-content>

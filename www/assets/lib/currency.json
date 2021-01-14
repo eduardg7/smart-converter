@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Latest",
+    "subtitle": "Currency",
+    "isExpanded": false
+  },
+  {
+    "title": "Historical",
+    "subtitle": "Currency",
+    "isExpanded": false
+  },
+  {
+    "title": "Convert",
+    "subtitle": "",
+    "isExpanded": false
+  },
+  {
+    "title": "Time-series",
+    "subtitle": "Currency",
+    "isExpanded": false
+  },
+  {
+    "title": "Fluctuation",
+    "subtitle": "Currency",
+    "isExpanded": false
+  }
+]

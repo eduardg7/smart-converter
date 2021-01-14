@@ -1,0 +1,49 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title *ngIf="modalType == 'converter'">
+			{{units[index].converter}}
+		</ion-title>
+		<ion-title *ngIf="modalType == 'currency'">
+			World Currencies
+		</ion-title>
+		<ion-title *ngIf="modalType == 'clothing'">
+			Clothing Sizes
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+<ion-content>
+	<ion-list *ngIf="modalType == 'converter' && units">
+		<ion-radio-group>
+			<ion-list-header>
+				<ion-label>Choose measurement unit:</ion-label>
+			</ion-list-header>
+			<ion-item *ngFor="let choice of units[index].choices">
+				<ion-label>{{choice}}</ion-label>
+				<ion-radio slot="end" (ionSelect)="dismissModal(choice, type)" color="light"></ion-radio>
+			</ion-item>
+			<ion-text></ion-text>
+		</ion-radio-group>
+	</ion-list>
+	<ion-list *ngIf="modalType == 'currency' && exchanges">
+		<ion-radio-group>
+			<ion-list-header>
+				<ion-label>Choose currency:</ion-label>
+			</ion-list-header>
+			<ion-item *ngFor="let exchange of exchanges">
+				<ion-label>{{exchange}}</ion-label>
+				<ion-radio slot="end" (ionSelect)="dismissModal(exchange, type)" color="light"></ion-radio>
+			</ion-item>
+		</ion-radio-group>
+	</ion-list>
+	<ion-list *ngIf="modalType == 'clothing' && clothing">
+		<ion-radio-group>
+			<ion-list-header>
+				<ion-label>Choose clothing size:</ion-label>
+			</ion-list-header>
+			<ion-item *ngFor="let choice of clothing[index].choices">
+				<ion-label>{{choice}}</ion-label>
+				<ion-radio slot="end" (ionSelect)="dismissModal(choice, type)" color="light"></ion-radio>
+			</ion-item>
+		</ion-radio-group>
+	</ion-list>
+</ion-content>

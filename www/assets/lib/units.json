@@ -1,0 +1,1111 @@
+[
+  {
+    "converter": "Acceleration",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Acceleration is the rate of change of velocity of an object with respect to time.",
+    "choices": [
+      "meter/square second (m/sec2)",
+      "centimeter/square second (cm/sec2)",
+      "foot/square second (ft/sec2)",
+      "standard gravity (grav)",
+      "gal (cm/s2)",
+      "g-unit",
+      "kilometer/square hour (km/h2)",
+      "kilometer/hour second (km/hs*s)",
+      "mile/hour minute (mi/h*min)",
+      "mile/hour second (mi/hr*s)",
+      "mile/square second (mi/sec2)",
+      "inch/square second (in/s2)"
+    ]
+  },
+  {
+    "converter": "Amount of Substance",
+    "section": "Chemistry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The amount of substance is the number of discrete particles of some specified nature, such as molecules, atoms, ions, electrons, etc., in some sample of matter.\n\nFor example, it is the number of molecules in a sample of a chemical compound. It is sometimes referred to as the chemical amount.",
+    "choices": [
+      "millimole (mmol)",
+      "mol (mol)",
+      "gram-mole (g*mol)",
+      "kilomole (kmol)",
+      "pound mole (lb*mol)"
+    ]
+  },
+  {
+    "converter": "Angle",
+    "section": "Geometry",
+    "isMostUsed": true,
+    "priority": 8,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "An angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle.",
+    "choices": [
+      "degrees (deg)",
+      "full circle",
+      "grad",
+      "radians (rad)"
+    ]
+  },
+  {
+    "converter": "Area",
+    "section": "Geometry",
+    "isMostUsed": true,
+    "priority": 7,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Area is the quantity that expresses the extent of a two-dimensional figure or shape, or planar lamina, in the plane.\n\nSurface area is its analog on the two-dimensional surface of a three-dimensional object. ",
+    "choices": [
+      "acres",
+      "ares (a)",
+      "barn (b)",
+      "hectares (ha)",
+      "homestead",
+      "rood",
+      "square millimeter (mm2)",
+      "square centimeters (cm2)",
+      "square decimeters (dm2)",
+      "square meters (m2)",
+      "square kilometer (km2)",
+      "square inch (in2)",
+      "square foot (ft2)",
+      "square yards (yd2)",
+      "square rods",
+      "square miles (mi2)",
+      "township (twp)"
+    ]
+  },
+  {
+    "converter": "Astronomical System of Units",
+    "section": "Astronomy",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Astronomical System of Units is a system of measurement developed for use in astronomy.\n\nIn particular, there is a huge quantity of very precise data relating to the positions of objects within the Solar System which cannot conveniently be expressed or processed in SI units.",
+    "choices": [
+      "parsecs",
+      "astronomical units (AU)",
+      "kilometers (km)",
+      "meters (m)",
+      "miles (mi)",
+      "light-years (Julian)",
+      "light-years (Gregorian)",
+      "light-years (traditional)",
+      "light-years (tropical/solar)",
+      "light-weeks",
+      "light-days",
+      "light-hours",
+      "light-minutes",
+      "light-seconds"
+    ]
+  },
+  {
+    "converter": "Blood Sugar",
+    "section": "Chemistry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The blood sugar level, blood sugar concentration, or blood glucose level is the concentration of glucose present in the blood of humans and other animals.\n\nThe international standard way of measuring blood glucose levels is in terms of a molar concentration, measured in mmol/L (millimoles per litre; or millimolar, abbreviated mM).\n\nIn the United States, Germany and other countries mass concentration is measured in mg/dL (milligrams per decilitre).",
+    "choices": [
+      "mmol/l",
+      "mg/dl",
+      "mg%"
+    ]
+  },
+  {
+    "converter": "Capacitance",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Capacitance is the ratio of the change in an electric charge in a system to the corresponding change in its electric potential.\n\nThe SI unit of capacitance is the farad (symbol: F), named after the English physicist Michael Faraday.",
+    "choices": [
+      "Abfarad (abF)",
+      "Attofarad (aF)",
+      "Centifarad (cF)",
+      "Coulomb per volt",
+      "Decafarad (daF)",
+      "Decifarad (dF)",
+      "Exafarad (Ef)",
+      "Farad (F)",
+      "Femtofarad (fF)",
+      "Gigafarad (GF)",
+      "Hectofarad (hF)",
+      "Kilofarad (kF)",
+      "Megafarad (MF)",
+      "Microfarad (µF)",
+      "Millifarad (mF)",
+      "Nanofarad (nF)",
+      "Petafarad (PF)",
+      "Picofarad (pF)",
+      "Statfarad (statF)",
+      "Terafarad (TF)",
+      "Yoctofarad (yF)",
+      "Yottafarad (YF)",
+      "Zaptofarad (zF)",
+      "Zettafarad (ZF)"
+    ]
+  },
+  {
+    "converter": "Computer Data Storage",
+    "section": "IT",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In computing and telecommunications, a unit of information is the capacity of some standard data storage system or communication channel, used to measure the capacities of other systems and channels.\n\nThe most commonly used units of data storage capacity are the bit, the capacity of a system that has only two states, and the byte (or octet), which is equivalent to eight bits.\n\nMultiples of these units can be formed from these with the SI prefixes (power-of-ten prefixes) or the newer IEC binary prefixes (power-of-two prefixes).",
+    "choices": [
+      "bit (bit)",
+      "byte (B)",
+      "kilobit (Kbit)",
+      "kilobyte (KB)",
+      "megabit (MB)",
+      "gigabit (Gbit)",
+      "gigabyte (GB)",
+      "terabit (Tbit)",
+      "terabyte (TB)",
+      "petabit (Pbit)",
+      "petabyte (PB)",
+      "floppy disk (3.5', DD)",
+      "floppy disk (3.5', HD)",
+      "floppy disk (5.25', DD)",
+      "floppy disk (5.25', HD)",
+      "Zip 100",
+      "Zip 250",
+      "Jaz 1GB",
+      "Jaz 2GB",
+      "CD (74 minutes)",
+      "CD (80 minutes)",
+      "DVD (1 layer)",
+      "DVD (2 layer)",
+      "Blu-ray (1 layer)",
+      "Blu-ray (2 layer)",
+      "HD-DVD (1 layer)",
+      "HD-DVD (2 layer)"
+    ]
+  },
+  {
+    "converter": "Cooking",
+    "section": "Other",
+    "isMostUsed": true,
+    "priority": 4,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Recipes from different parts of the world use different units of measurement.\n\nThis converter helps you transform the units in your country's specific measurements.",
+    "choices": [
+      "cup (US)",
+      "dash",
+      "dessertspoon (US)",
+      "dessertspoon (UK)",
+      "dram (US fluid)",
+      "dram (UK fluid)",
+      "drop",
+      "fifth",
+      "fluid ounce (US fluid, fl oz)",
+      "fluid ounce (UK fluid, fl oz)",
+      "gallon (US, fluid)",
+      "gallon (US, dry)",
+      "gallon (UK)",
+      "gill (US)",
+      "gill (UK)",
+      "liter",
+      "milliliter",
+      "pint (US, fluid)",
+      "pint (US, dry)",
+      "pint (UK)",
+      "quart (US, fluid)",
+      "quart (US, dry)",
+      "quart (UK)",
+      "tablespoon (US)",
+      "tablespoon (Food and Drug Administration)",
+      "teaspoon (US)",
+      "teaspoon (Food and Drug Administration)"
+    ]
+  },
+  {
+    "converter": "Data Transfer Rate",
+    "section": "IT",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In telecommunications, data-transfer rate is the average number of bits (bitrate), characters or symbols (baudrate), or data blocks per unit time passing through a communication link in a data-transmission system.\n\nCommon data rate units are multiples of bits per second (bit/s) and bytes per second (B/s). For example, the data rates of modern residential high-speed Internet connections are commonly expressed in megabits per second (Mbit/s).",
+    "choices": [
+      "bit/second (bit/s)",
+      "byte/second (B/s)",
+      "kilobit/second (Kbit/s)",
+      "kilobyte/second (KB/s)",
+      "megabit/second (Mbit/s)",
+      "megabyte/second (MB/s)",
+      "gigabit/second (Gbit/s)",
+      "gigabyte/second (GB/s)",
+      "byte/minute (B/min)",
+      "byte/hour (B/h)",
+      "kilobyte/minute (KB/min)",
+      "kilobyte/hour (KB/h)",
+      "megabyte/minute (MB/m)",
+      "megabyte/hour (MB/h)"
+    ]
+  },
+  {
+    "converter": "Density",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The density, or more precisely, the volumetric mass density, of a substance is its mass per unit volume. The symbol most often used for density is ρ (the lower case Greek letter rho), although the Latin letter D can also be used.\n\nMathematically, density is defined as mass divided by volume: ρ = m/V, where ρ is the density, m is the mass, and V is the volume.",
+    "choices": [
+      "gram/cubic centimeter (g/cm3)",
+      "gram/cubic decimeter (g/dm3)",
+      "gram/cubic meter (g/m3)",
+      "gram/liter",
+      "gram/milliliter",
+      "megagram/cubic centimeter",
+      "megagram/cubic meter",
+      "megagram/liter",
+      "megagram/milliliter",
+      "milligram/cubic centimeter (mg/cm3)",
+      "milligram/cubic decimeter (mg/dm3)",
+      "milligram/cubic meter (mg/m3)",
+      "milligram/liter",
+      "milligram/milliliter",
+      "kilogram/cubic centimeter (kg/cm3)",
+      "kilogram/cubic decimeter (kg/dm3)",
+      "kilogram/cubic meter (kg/m3)",
+      "kilogram/liter",
+      "kilogram/milliliter)",
+      "ounce/cubic foot",
+      "ounce/cubic inch",
+      "ounce/cubic yard",
+      "ounce/gallon (UK) (oz/gal)",
+      "ounce/gallon (US) (oz/gal)",
+      "pound/circular mil foot",
+      "pound/cubic foot (lb/ft3)",
+      "pound/cubic inch (lb/in3)",
+      "pound/cubic yard",
+      "pound/gallon (UK) (lb/gal)",
+      "pound/gallon (US) (lb/gal)",
+      "grain/cubic foot",
+      "grain/cubic inch",
+      "grain/cubic yard",
+      "grain/gallon (UK)",
+      "grain/gallon (US)",
+      "tonne/cubic centimeter",
+      "tonne/cubic decimeter",
+      "tonne/cubic meter",
+      "tonne/liter",
+      "tonne/milliliter"
+    ]
+  },
+  {
+    "converter": "Dynamic Viscosity",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The viscosity of a fluid is a measure of its resistance to deformation at a given rate. For liquids, it corresponds to the informal concept of \"thickness\": for example, syrup has a higher viscosity than water.\n\nIn fluid dynamics, it is common to work in terms of the kinematic viscosity (also called \"momentum diffusivity\"), defined as the ratio of the viscosity μ to the density of the fluid ρ.\n\nIt is usually denoted by the Greek letter nu (ν) and has units (length * length)/time: ν = μ/ρ. Consistent with this nomenclature, the viscosity ν is frequently called the dynamic viscosity or absolute viscosity, and has units force × time/area.",
+    "choices": [
+      "Centipoise (cP)",
+      "Gram per centimeter second (g/(cm*s))",
+      "Kilogram per meter second (kg/(m*s))",
+      "Newton second per square meter (N*s/m2)",
+      "Pascal-second (Pa*s)",
+      "Poise (P)",
+      "Pound-force second per square inch (lbf*s/in2)",
+      "Pound-force second per square foot (lbf*s/ft2)",
+      "Pound per foot second (lb/(ft*s))",
+      "Pound per foot hour (lb/(ft*h))",
+      "Slug per foot second (slug/(ft*s))",
+      "Poundal second per square foot",
+      "Dyne second per square centimeter (dyn*s/cm2)"
+    ]
+  },
+  {
+    "converter": "Electric Charge",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Electric charge is the physical property of matter that causes it to experience a force when placed in an electromagnetic field.\n\nThere are two-types of electric charge; positive and negative (commonly carried by protons and electrons respectively). Like charges repel and unlike attract.\n\nAn object with an absence of net charge is referred to as neutral. Early knowledge of how charged substances interact is now called classical electrodynamics, and is still accurate for problems that do not require consideration of quantum effects.",
+    "choices": [
+      "Abcoulomb (abC)",
+      "Ampere-hour (Ah)",
+      "Coulomb (C)",
+      "Elementary charge",
+      "Faraday (F)",
+      "Kilocoulomb (kC)",
+      "Megacoulomb (MC)",
+      "Microcoulomb (µc)",
+      "Milliampere-hour (mAh)",
+      "Millicoulomb (mC)",
+      "Nanocoulomb (nC)",
+      "Statcoulomb (statC"
+    ]
+  },
+  {
+    "converter": "Electrical Resistance",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The electrical resistance of an object is a measure of its opposition to the flow of electric current. Electrical resistance shares some conceptual parallels with the notion of mechanical friction.\n\nThe SI unit of electrical resistance is the ohm (Ω).",
+    "choices": [
+      "Abohm (abΩ)",
+      "Gigaohm (GΩ)",
+      "Kiloohm (kΩ)",
+      "Megaohm (MΩ)",
+      "Microohm (µΩ)",
+      "Milliohm (mΩ)",
+      "Nanoohm (nΩ)",
+      "Ohm (Ω)",
+      "Volt per ampere (V/A)"
+    ]
+  },
+  {
+    "converter": "Energy",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In physics, energy is the quantitative property that must be transferred to an object in order to perform work on, or to heat, the object.\n\nEnergy is a conserved quantity; the law of conservation of energy states that energy can be converted in form, but not created or destroyed.\n\nThe SI unit of energy is the joule, which is the energy transferred to an object by the work of moving it a distance of 1 metre against a force of 1 newton.",
+    "choices": [
+      "BTU",
+      "calorie (cal)",
+      "electronvolt (eV)",
+      "erg",
+      "foot-pound",
+      "gigajoule (GJ)",
+      "joule (J)",
+      "kilocalorie (kcal)",
+      "kilojoule (kJ)",
+      "kilowatt hour (kWh)",
+      "megajoule (MJ)",
+      "nutrition calorie (Cal)",
+      "ton of TNT (tn)",
+      "watt hour (Wh)"
+    ]
+  },
+  {
+    "converter": "Force",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In physics, a force is any interaction that, when unopposed, will change the motion of an object.\n\nA force can cause an object with mass to change its velocity (which includes to begin moving from a state of rest), i.e., to accelerate.\n\nForce can also be described intuitively as a push or a pull. A force has both magnitude and direction, making it a vector quantity.\n\nIt is measured in the SI unit of newtons and represented by the symbol F.",
+    "choices": [
+      "attonewton",
+      "centinewton",
+      "decigram-force",
+      "decinewton",
+      "dekagram-force",
+      "dekanewton",
+      "dyne (dyn)",
+      "exanewton",
+      "femtonewton",
+      "giganewton (GN)",
+      "gram-force",
+      "hectonewton",
+      "joule/meter (J/m)",
+      "kilogram-force (kgf)",
+      "kilonewton (kN)",
+      "kilopond (kp)",
+      "kip (kip)",
+      "meganewton",
+      "megapond",
+      "micronewton (µN)",
+      "millinewton (mN)",
+      "nanonewton (nN)",
+      "newton (N)",
+      "ounce-force (ozf)",
+      "petanewton",
+      "piconewton",
+      "pond",
+      "pond-force (lbf)",
+      "poundal (pdl)",
+      "sthene (sn)",
+      "teranewton",
+      "ton-force (long) (tnf)",
+      "ton-force (metric) (tnf)",
+      "ton-force (short) (tnf)",
+      "yoctonewton",
+      "yottanewton",
+      "zeptonewton",
+      "zettanewton"
+    ]
+  },
+  {
+    "converter": "Fuel Consumption",
+    "section": "Other",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Fuel consumption has the dimension volume of petroleum per length or length per volume of petroleum.\n\nThe three standard units of fuel consumption are the liter of petroleum per 100 kilometers, the mile per gallon of petroleum, and the kilometer per liter of petroleum.",
+    "choices": [
+      "liters/100km",
+      "miles/gallon (US)",
+      "km/gallon (US)",
+      "miles/gallon (UK)",
+      "km/gallon (UK)",
+      "miles/liter",
+      "km/liter",
+      "gallons(US)/100 miles",
+      "gallons(US)/100 km",
+      "gallons(UK)/100 miles",
+      "gallons(UK)/100 km",
+      "liters/100 miles"
+    ]
+  },
+  {
+    "converter": "Illuminance",
+    "section": "Photometry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In photometry, illuminance is the total luminous flux incident on a surface, per unit area.\n\nIt is a measure of how much the incident light illuminates the surface, wavelength-weighted by the luminosity function to correlate with human brightness perception.\n\nSimilarly, luminous emittance is the luminous flux per unit area emitted from a surface.\n\nLuminous emittance is also known as luminous exitance. In SI derived units these are measured in lux (lx), or equivalently in lumens per square metre (cd·sr·m−2). In the CGS system, the unit of illuminance is the phot, which is equal to 10000 lux. The foot-candle is a non-metric unit of illuminance that is used in photography.",
+    "choices": [
+      "Foot-candle (fc)",
+      "Kilolux (klx)",
+      "Lumen per square centimeter (lm/cm2)",
+      "Lumen per square meter (lm/m2)",
+      "Lux (lx)",
+      "Microlux (µlx)",
+      "Millilux (mlx)",
+      "Nox",
+      "Phot (ph)"
+    ]
+  },
+  {
+    "converter": "Inductance",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In electromagnetism and electronics, inductance describes the tendency of an electrical conductor, such as coil, to oppose a change in the electric current through it. The change in current induces a reverse electromotive force (voltage).\n\nWhen an electric current flows through a conductor, it creates a magnetic field around that conductor. In the SI system, the unit of inductance is the henry (H), which is the amount of inductance which causes a voltage of 1 volt when the current is changing at a rate of one ampere per second. It is named for Joseph Henry, who discovered inductance independently of Faraday.",
+    "choices": [
+      "Abhenry (abH)",
+      "Gigahenry (GH)",
+      "Henry (H)",
+      "Kilohenry (kH)",
+      "Megahenry (MH)",
+      "Microhenry (µH)",
+      "Millihenry (mH)",
+      "Nanohenry (nH)",
+      "Weber per ampere (Wb/A)"
+    ]
+  },
+  {
+    "converter": "Length",
+    "section": "Physics",
+    "isMostUsed": true,
+    "priority": 1,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Length is a measure of distance. In the International System of Quantities, length is any quantity with dimension distance. In most systems of measurement, the unit of length is a base unit, from which other units are derived.\n\nIn geometry, length is the most extended dimension of an object.",
+    "choices": [
+      "millimeters (mm)",
+      "centimeters (cm)",
+      "decimeters (dm)",
+      "meters (m)",
+      "kilometers (km)",
+      "inches (in)",
+      "feet (ft)",
+      "rods",
+      "furlongs",
+      "fathoms",
+      "miles (mi)",
+      "nautical miles",
+      "light years",
+      "yards",
+      "anstroms",
+      "astronomical unit (au)",
+      "chain",
+      "hectometers",
+      "leagues",
+      "microns (µ)",
+      "micrometers (µm)",
+      "nanometers (nm)",
+      "parasects"
+    ]
+  },
+  {
+    "converter": "Luminance",
+    "section": "Photometry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Luminance is a photometric measure of the luminous intensity per unit area of light travelling in a given direction. It describes the amount of light that passes through, is emitted from, or is reflected from a particular area, and falls within a given solid angle.\n\nBrightness is the term for the subjective impression of the objective luminance measurement standard (see Objectivity (science) § Objectivity in measurement for the importance of this contrast).\n\nThe SI unit for luminance is candela per square metre (cd/m2), as defined by the International System of Units (SI is from the French Système international d'unités) standard for the modern metric system.",
+    "choices": [
+      "Candela per square centimeter (cd/cm2)",
+      "Candela per square foot (cd/ft2)",
+      "Candela per square meter (cd/m2)",
+      "Foot-lambert (fL)",
+      "Kilocandela per square meter (kcd/m2)",
+      "Lambert (L)",
+      "Nit",
+      "Stilb"
+    ]
+  },
+  {
+    "converter": "Luminous Energy",
+    "section": "Photometry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In photometry, luminous energy is the perceived energy of light. This is sometimes called the quantity of light. Luminous energy is not the same as radiant energy, the corresponding objective physical quantity. This is because the human eye can only see light in the visible spectrum and has different sensitivities to light of different wavelengths within the spectrum. When adapted for bright conditions (photopic vision), the eye is most sensitive to light at a wavelength of 555 nm. Light with a given amount of radiant energy will have more luminous energy if the wavelength is 555 nm than if the wavelength is longer or shorter. Light whose wavelength is well outside the visible spectrum has a luminous energy of zero, regardless of the amount of radiant energy present.\n\nThe SI unit of luminous energy is the lumen second, which is unofficially known as the talbot in honor of William Henry Fox Talbot. In other systems of units, luminous energy may be expressed in basic units of energy.",
+    "choices": [
+      "Lumen hour (lm*h)",
+      "Lumen minute (lm*min)",
+      "Lumen second (lm*s)",
+      "Talbot (T)"
+    ]
+  },
+  {
+    "converter": "Luminous Intensity",
+    "section": "Photometry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In photometry, luminous intensity is a measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle, based on the luminosity function, a standardized model of the sensitivity of the human eye. The SI unit of luminous intensity is the candela (cd), an SI base unit.",
+    "choices": [
+      "Candela (cd)",
+      "Lumen per steradian (lm*sr)",
+      "Hefnerkerze (HK)",
+      "Candlepower"
+    ]
+  },
+  {
+    "converter": "Magnetic Field",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "A magnetic field is a vector field that describes the magnetic influence of electric charges in relative motion and magnetized materials. Magnetic fields are observed in a wide range of size scales, from subatomic particles to galaxies.\n\nThe effects of magnetic fields are commonly seen in permanent magnets, which pull on magnetic materials (such as iron) and attract or repel other magnets.\n\nMagnetic fields surround and are created by magnetized material and by moving electric charges (electric currents) such as those used in electromagnets.\n\nMagnetic fields exert forces on nearby moving electrical charges and torques on nearby magnets. In addition, a magnetic field that varies with location exerts a force on magnetic materials.\n\nBoth the strength and direction of a magnetic field vary with location. As such, it is an example of a vector field.",
+    "choices": [
+      "Gamma (γ)",
+      "Gauss (G)",
+      "Kilotesla (kT)",
+      "Line per square centimeter",
+      "Maxwell per square centimeter (Mw/cm2)",
+      "Megatesla",
+      "Microtestla (µT)",
+      "Millitesla (mT)",
+      "Nanotesla (nT)",
+      "Picotesla (pT)",
+      "Tesla (T)",
+      "Weber per square meter (Wb/m2)"
+    ]
+  },
+  {
+    "converter": "Magnetic Field Strength",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Magnetic field strength is one of two ways that the intensity of a magnetic field can be expressed. Technically, a distinction is made between magnetic field strength H, measured in amperes per meter (A/m), and magnetic flux density B, measured in Newton-meters per ampere (Nm/A), also called teslas (T).",
+    "choices": [
+      "Ampere per meter (A/m)",
+      "Ampere-turn per meter (AT/m)",
+      "Gilbert per meter (Gi/m)",
+      "Oersted (Oe)"
+    ]
+  },
+  {
+    "converter": "Magnetic Flux",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In physics, specifically electromagnetism, the magnetic flux (often denoted Φ or ΦB) through a surface is the surface integral of the normal component of the magnetic field B passing through that surface.\n\nThe SI unit of magnetic flux is the weber (Wb) (in derived units: volt * seconds, and the CGS unit is the maxwell.\n\nMagnetic flux is usually measured with a fluxmeter, which contains measuring coils and electronics, that evaluates the change of voltage in the measuring coils to calculate the magnetic flux.",
+    "choices": [
+      "Gauss square centimeter (G*cm2)",
+      "Magnetic flux quantum",
+      "Maxwell (Mw)",
+      "Microweber (µWb)",
+      "Milliweber (mWb)",
+      "Nanoweber (nWb)",
+      "Tesla square meter (T*m2)",
+      "Volt-second (Vs)",
+      "Weber (Wb)"
+    ]
+  },
+  {
+    "converter": "Magnetomotive Force",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In physics, the magnetomotive force (mmf) is a quantity appearing in the equation for the magnetic flux in a magnetic circuit, often called Ohm's law for magnetic circuits.\n\nThe SI unit of mmf is the ampere, the same as the unit of current (analogously the units of emf and voltage are both the volt). Informally, and frequently, this unit is stated as the ampere-turn to avoid confusion with current. This was the unit name in the MKS system. Occasionally, the cgs system unit of the gilbert may also be encountered.",
+    "choices": [
+      "Ampere-turn (AT)",
+      "Gilbert (Gi)"
+    ]
+  },
+  {
+    "converter": "Metric",
+    "section": "Other",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "The metric system is an internationally recognised decimalised system of measurement.\n\nIt is in widespread use, and where it is adopted, it is the only or most common system of weights and measures.\n\nIt is now known as the International System of Units (SI). It is used to measure everyday things such as the mass of a sack of flour, the height of a person, the speed of a car, and the volume of fuel in its tank. It is also used in science, industry and trade.",
+    "choices": [
+      "yocto (y)",
+      "zepto (z)",
+      "atto (a)",
+      "femto (f)",
+      "pico (p)",
+      "nano (n)",
+      "micro (µ)",
+      "milli (m)",
+      "centi (c)",
+      "deci (d)",
+      "base",
+      "deka (da)",
+      "hecto (h)",
+      "kilo (k)",
+      "mega (M)",
+      "giga (G)",
+      "tera (T)",
+      "peta (P)",
+      "exa (E)",
+      "zetta (Z)",
+      "yotta (Y)"
+    ]
+  },
+  {
+    "converter": "Molar Mass",
+    "section": "Chemistry",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In chemistry, the molar mass of a chemical compound is defined as the mass of a sample of that compound divided by the amount of substance in that sample, measured in moles. It is often denoted by M.\n\nThe molar mass is an intensive property of the substance, that does not depend on the size of the sample. In the International System of Units (SI), the base unit of molar mass is kg/mol. However, for historical reasons, molar masses are almost always expressed in g/mol.",
+    "choices": [
+      "Chlorine (Cl) - standard atomic weight",
+      "Chlorine molecule (Cl₂) - molecular mass",
+      "Gram per mole (g/mol)",
+      "Hydrogen (H) - standard atomic weight",
+      "Hydrogen molecule (H₂) - molecular mass",
+      "Iron (Fe) - standard atomic weight",
+      "Kilogram per mole (kg/mol)",
+      "Oxygen (O) - standard atomic weight",
+      "Sulfur (S) - standard atomic weight",
+      "Sulfur molecule (S₈) - molecular mass",
+      "Table salt (sodium chloride) (NaCl) - molecular mass",
+      "Table sugar (sucrose) (C₁₂H₂₂O₁₁) - molecular mass",
+      "Water molecule (H₂O) - molecular mass"
+    ]
+  },
+  {
+    "converter": "Power",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In physics, power is the rate of doing work or of transferring heat, i.e. the amount of energy transferred or converted per unit time. Having no direction, it is a scalar quantity.\n\nIn the International System of Units, the unit of power is the joule per second (J/s), known as the watt in honour of James Watt, the eighteenth-century developer of the condenser steam engine.",
+    "choices": [
+      "BTU/hour",
+      "BTU/second",
+      "calories per second",
+      "erg per second",
+      "feed pound per second (ft lbf/s)",
+      "gigawatt (GW)",
+      "horsepower (hp)",
+      "kilocalories (Calorie) per second",
+      "kilowatt (kW)",
+      "megawatt (MW)",
+      "milliwatt (mW)",
+      "watt (joules/s) (W)"
+    ]
+  },
+  {
+    "converter": "Pressure",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Pressure (symbol: p or P) is the force applied perpendicular to the surface of an object per unit area over which that force is distributed. Gauge pressure (also spelled gage pressure)[a] is the pressure relative to the ambient pressure.\n\nVarious units are used to express pressure. Some of these derive from a unit of force divided by a unit of area; the SI unit of pressure, the pascal (Pa), for example, is one newton per square metre; similarly, the pound-force per square inch (psi) is the traditional unit of pressure in the imperial and US customary systems. Pressure may also be expressed in terms of standard atmospheric pressure; the atmosphere (atm) is equal to this pressure, and the torr is defined as \u200B1⁄760 of this.\n\nManometric units such as the centimetre of water, millimetre of mercury, and inch of mercury are used to express pressures in terms of the height of column of a particular fluid in a manometer.",
+    "choices": [
+      "atmospheres (at)",
+      "bar (b)",
+      "hectopascals (hPa)",
+      "kilograms per sq. cm (kgf/cm2",
+      "kilograms per sq. meter (kgf/m2)",
+      "kilopascals (kPa)",
+      "millibars",
+      "millimeters of mercury (mmHg)",
+      "pascals (Pa)",
+      "pounds per square foot (psf)",
+      "pounds per square inch (psi)",
+      "torr (Torr)"
+    ]
+  },
+  {
+    "converter": "Radioactive Decay",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Radioactive decay (also known as nuclear decay, radioactivity or nuclear radiation) is the process by which an unstable atomic nucleus loses energy (in terms of mass in its rest frame) by emitting radiation, such as an alpha particle, beta particle with neutrino or only a neutrino in the case of electron capture, or a gamma ray or electron in the case of internal conversion.\n\nA material containing unstable nuclei is considered radioactive. Certain highly excited short-lived nuclear states can decay through neutron emission, or more rarely, proton emission.",
+    "choices": [
+      "Becquerel (Bq)",
+      "Curie (Ci)",
+      "Disintegration per minute (dpm)",
+      "Gigabecquerel (GBq)",
+      "Kilobecquerel (kBq)",
+      "Megabecquerel (MBq)",
+      "Rutherford (Rd)",
+      "Terabecquerel (TBq)"
+    ]
+  },
+  {
+    "converter": "Radioactivity Equivalent Dose",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Equivalent dose is a dose quantity H representing the stochastic health effects of low levels of ionizing radiation on the human body which represents the probability of radiation-induced cancer and genetic damage.\n\nIt is derived from the physical quantity absorbed dose, but also takes into account the biological effectiveness of the radiation, which is dependent on the radiation type and energy.\n\nIn the SI system of units, the unit of measure is the sievert (Sv).",
+    "choices": [
+      "Dental radiography",
+      "Microsievert (µSv)",
+      "Millirem (mrem)",
+      "Millisievert (mSv)",
+      "Röntgen equivalent man (rem)",
+      "Sievert (Sv)"
+    ]
+  },
+  {
+    "converter": "Speed",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In everyday use and in kinematics, the speed of an object is the magnitude of its velocity (the rate of change of its position); it is thus a scalar quantity.\n\nThe average speed of an object in an interval of time is the distance travelled by the object divided by the duration of the interval; the instantaneous speed is the limit of the average speed as the duration of the time interval approaches zero.\n\nSpeed has the dimensions of distance divided by time.The SI unit of speed is the metre per second, but the most common unit of speed in everyday usage is the kilometre per hour or, in the US and the UK, miles per hour. For air and marine travel the knot is commonly used.",
+    "choices": [
+      "centimeters/second (cm/s)",
+      "feet/second (ft/s)",
+      "kilometers/hour (km/h)",
+      "kilometers/minute (km/min)",
+      "kilometers/second (km/s)",
+      "knot (kn)",
+      "mach (M)",
+      "meters/minute (m/min)",
+      "meters/second (m/s)",
+      "mile/hour (mph)",
+      "speed of light",
+      "speed of sound",
+      "yards/second (yd/s)"
+    ]
+  },
+  {
+    "converter": "Temperature",
+    "section": "Physics",
+    "isMostUsed": true,
+    "priority": 6,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Temperature is a physical quantity expressing hot and cold. It is measured with a thermometer calibrated in one or more temperature scales. The most commonly used scales are the Celsius scale (formerly called centigrade) (denoted °C), Fahrenheit scale (denoted °F), and Kelvin scale (denoted K).\n\nThe kelvin (the word is spelled with a lower-case k) is the unit of temperature in the International System of Units (SI), in which temperature is one of the seven fundamental base quantities.\n\nThe Kelvin scale is widely used in science and technology.",
+    "choices": [
+      "celsius (C)",
+      "fahrenheit (F)",
+      "kelvin (F)"
+    ]
+  },
+  {
+    "converter": "Time",
+    "section": "Physics",
+    "isMostUsed": true,
+    "priority": 5,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Time is the indefinite continued progress of existence and events that occur in apparently irreversible succession from the past, through the present, to the future.\n\nTime is a component quantity of various measurements used to sequence events, to compare the duration of events or the intervals between them, and to quantify rates of change of quantities in material reality or in the conscious experience.\n\nTime is often referred to as a fourth dimension, along with three spatial dimensions.",
+    "choices": [
+      "nanoseconds",
+      "microseconds",
+      "milliseconds",
+      "seconds",
+      "minutes",
+      "hours",
+      "days",
+      "weeks",
+      "fortnight",
+      "month",
+      "years",
+      "tropical years",
+      "Gregorian years",
+      "Julian years",
+      "decades",
+      "centuries",
+      "millennium"
+    ]
+  },
+  {
+    "converter": "Torque",
+    "section": "Physics",
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Torque, moment, moment of force or \"turning effect\" is the rotational equivalent of linear force.\n\nThe concept originated with the studies of Archimedes on the usage of levers. Just as a linear force is a push or a pull, a torque can be thought of as a twist to an object.\n\nAnother definition for torque is - the product of the magnitude of the force and the perpendicular distance of the line of action of force from the axis of rotation. The symbol for torque is lowercase Greek letter tau. When being referred to as moment of force, it is commonly denoted by M.",
+    "choices": [
+      "dyne centimeter",
+      "dyne meter",
+      "dyne millimeter",
+      "gram-force centimeter",
+      "gram-force meter",
+      "gram-force milimeter",
+      "kilogram-force centimeter",
+      "kilogram-force meter",
+      "kilogram-force milimeter",
+      "kilonewton meter",
+      "meganewton meter",
+      "micronewton meter",
+      "millinewton meter",
+      "newton centimeter",
+      "newton millimeter",
+      "newton meter",
+      "ounce-force foot",
+      "ounce-force inch",
+      "pound-force feet",
+      "pound-force inch"
+    ]
+  },
+  {
+    "converter": "Volume",
+    "section": "Physics",
+    "isMostUsed": true,
+    "priority": 3,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains.\n\nVolume is often quantified numerically using the SI derived unit, the cubic metre. The volume of a container is generally understood to be the capacity of the container; i. e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces. Three dimensional mathematical shapes are also assigned volumes.\n\nVolumes of some simple shapes, such as regular, straight-edged, and circular shapes can be easily calculated using arithmetic formulas. Volumes of complicated shapes can be calculated with integral calculus if a formula exists for the shape's boundary.\n\nOne-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space.",
+    "choices": [
+      "barrel (petroleum) (bbl, bo)",
+      "bushel (UK) (bu)",
+      "bushel (US dry) (bu)",
+      "centiliter (cl)",
+      "cubic centimeter (cc, cm3)",
+      "cubic decimeter (dm3)",
+      "cubic foot (ft3, cu ft)",
+      "cubic inch (in3, cu in)",
+      "cubic meter (m3)",
+      "cubic millimeter (mm3)",
+      "cubic yard (yd3)",
+      "dekaliter (dal)",
+      "fluid dram (fl dr)",
+      "fluid ounce (fl oz)",
+      "fuild ounce (UK) (fl oz)",
+      "gallon (fluid) (gal)",
+      "gallon (UK) (gal)",
+      "gill (gi)",
+      "hectoliter (hl)",
+      "kiloliter (kl)",
+      "liter (l)",
+      "microliter (µl)",
+      "milliliter (ml)",
+      "minim (min)",
+      "peck (US dry) (pk)",
+      "pint (fluid) (pt)",
+      "pint (UK) (pt)",
+      "pint (US dry) (pt)",
+      "quart (fluid) (qt)",
+      "quart (UK) (qt)",
+      "quart (US dry) (qt)"
+    ]
+  },
+  {
+    "converter": "Weight",
+    "section": "Physics",
+    "isMostUsed": true,
+    "priority": 2,
+    "isExpanded": false,
+    "values": {
+      "inputValue": null,
+      "fromValue": "",
+      "toValue": "",
+      "conversionResult": null
+    },
+    "description": "In science and engineering, the weight of an object is related to the amount of force acting on the object, either due to gravity or to a reaction force that holds it in place.\n\nThe unit of measurement for weight is that of force, which in the International System of Units (SI) is the newton.\n\nFor example, an object with a mass of one kilogram has a weight of about 9.8 newtons on the surface of the Earth, and about one-sixth as much on the Moon. Although weight and mass are scientifically distinct quantities, the terms are often confused with each other in everyday use (i.e. comparing and converting force weight in pounds to mass in kilograms and vice versa).",
+    "choices": [
+      "atomic mass units (amu)",
+      "carats (metric)",
+      "centals",
+      "centigrams",
+      "dekagrams",
+      "drams (dr)",
+      "grains (gr)",
+      "gram (g)",
+      "hundredweights (UK)",
+      "kilograms (kg)",
+      "micrograms (µg)",
+      "milligrams (mg)",
+      "newtons (Earth)",
+      "ounce (oz)",
+      "pennyweights (dwt)",
+      "pounds (lb)",
+      "quarter",
+      "stones",
+      "tons (UK, long)",
+      "tons (US, short)",
+      "tonne (t)",
+      "trow ounce"
+    ]
+  }
+]

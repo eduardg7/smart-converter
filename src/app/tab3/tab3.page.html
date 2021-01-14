@@ -1,0 +1,69 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Currency
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-card>
+		<ion-card-header (click)="expandCard('converter');">
+			<ion-card-subtitle>Currency</ion-card-subtitle>
+			<ion-card-title>Smart Currency Converter</ion-card-title>
+		</ion-card-header>
+		<ion-card-content *ngIf="isCardExpanded.converter">
+			<div class="covert-from">
+				<div class="convert-from-left-side">
+					<ion-note>Enter value to convert:</ion-note>
+					<ion-input type="number" [(ngModel)]="amount"
+					           step="0.01 required"></ion-input>
+				</div>
+				<div class="convert-from-right-side">
+					<ion-note>From:</ion-note>
+					<ion-button color="light" expand="block" [(ngModel)]="fromCurrency" (click)="openModal('from')"
+					            ngDefaultControl>{{fromCurrency ? fromCurrency : "Choose"}}
+					</ion-button>
+				</div>
+			</div>
+			<div class="convert-to">
+				<div class="convert-to-right-side">
+					<ion-note>To:</ion-note>
+					<ion-button color="light" expand="block" [(ngModel)]="toCurrency" (click)="openModal('to')"
+					            ngDefaultControl>{{toCurrency ? toCurrency : "Choose"}}
+					</ion-button>
+				</div>
+			</div>
+			<div class="convert-total">
+				<ion-note (click)="convertCurrency(fromCurrency, toCurrency, amount)">
+					Result:
+				</ion-note>
+				<ion-button color="light" expand="block" disabled="true"
+				            ngDefaultControl>
+					{{currencyResult}}
+				</ion-button>
+			</div>
+		</ion-card-content>
+	</ion-card>
+	<ion-card>
+		<ion-card-header (click)="expandCard('historical');">
+			<ion-card-subtitle>Currency</ion-card-subtitle>
+			<ion-card-title>Historical Exchange Rate</ion-card-title>
+		</ion-card-header>
+		<ion-card-content *ngIf="isCardExpanded.historical"></ion-card-content>
+	</ion-card>
+	<ion-card>
+		<ion-card-header (click)="expandCard('timeline');">
+			<ion-card-subtitle>Currency</ion-card-subtitle>
+			<ion-card-title>Exchange Rate Timeline</ion-card-title>
+		</ion-card-header>
+		<ion-card-content *ngIf="isCardExpanded.timeline"></ion-card-content>
+	</ion-card>
+	<ion-card>
+		<ion-card-header (click)="expandCard('fluctuation');">
+			<ion-card-subtitle>Currency</ion-card-subtitle>
+			<ion-card-title>Exchange Fluctuation</ion-card-title>
+		</ion-card-header>
+		<ion-card-content *ngIf="isCardExpanded.fluctuation"></ion-card-content>
+	</ion-card>
+</ion-content>

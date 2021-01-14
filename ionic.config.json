@@ -1,0 +1,7 @@
+{
+  "name": "smart-converter",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

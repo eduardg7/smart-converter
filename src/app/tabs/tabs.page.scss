@@ -1,0 +1,9 @@
+ion-tabs{
+  ion-tab-bar{
+    ion-tab-button{
+      &.tab-selected{
+        color: #AF0B2A;
+      }
+    }
+  }
+}
